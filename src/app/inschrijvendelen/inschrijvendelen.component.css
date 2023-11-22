@@ -1,7 +1,5 @@
 .window {
-    /* margin: 5%; */
-    /* height: 60vh; */
-    padding: 3%;
+    padding-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,14 +25,14 @@
     display: flex;
 }
 
-.tile img{
+.tile img {
     height: 280px;
-    width: 45%;
+    min-width: 45%;
     object-fit: cover;
     border-radius: 8px 0 0 8px;
 }
 
-.tile-content{
+.tile-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,6 +67,7 @@
     background: #183660FF;
 }
 
-.tile span{
+.tile span {
     text-align: center;
+    color: var(--clr--small-text);
 }

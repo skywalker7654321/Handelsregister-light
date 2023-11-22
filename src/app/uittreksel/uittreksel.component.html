@@ -1,2 +1,60 @@
-<p style="font-size: 48px;">Uittreksel pagina werkt!</p>
-<p style="font-size: 48px;">Under constuction...</p>
+
+<div class="page">
+    <div class="uittreksel-container">
+      <h2>Uittreksel (Under construction)</h2>
+      <form>
+        <label for="companyName">Bedrijfsnaam</label>
+        <label id="companyName">{{ data.companyName }}</label>
+  
+        <label for="address">Adres</label>
+        <label id="address">{{ data.address }}</label>
+  
+        <label for="contact">Contactgegevens</label>
+        <label id="contact">{{ data.contact }}</label>
+  
+        <label for="industry">Beschrijving</label>
+        <label id="industry">{{ data.industry }}</label>
+  
+        <label for="employees">Aantal werknemers</label>
+        <label id="employees">{{ data.employees }}</label>
+  
+        <label for="revenue">Jaarlijkse omzet</label>
+        <label id="revenue">{{ data.revenue }}</label>
+  
+        <label for="website">Bedrijfswebsite</label>
+        <label id="website">{{ data.website }}</label>
+  
+        <label for="established">Oprichtingsdatum</label>
+        <label id="established">{{ data.established | date: 'yyyy-MM-dd' }}</label>
+  
+        <!-- 其他显示数据的 label -->
+  
+        <label for="companyName">Bedrijfsnaam</label>
+        <label id="companyName">{{ data.companyName }}</label>
+  
+        <label for="address">Adres</label>
+        <label id="address">{{ data.address }}</label>
+  
+        <label for="contact">Contactgegevens</label>
+        <label id="contact">{{ data.contact }}</label>
+  
+        <label for="industry">Beschrijving</label>
+        <label id="industry">{{ data.industry }}</label>
+  
+        <label for="employees">Aantal werknemers</label>
+        <label id="employees">{{ data.employees }}</label>
+  
+        <label for="revenue">Jaarlijkse omzet</label>
+        <label id="revenue">{{ data.revenue }}</label>
+  
+        <label for="website">Bedrijfswebsite</label>
+        <label id="website">{{ data.website }}</label>
+  
+        <label for="established">Oprichtingsdatum</label>
+        <label id="established">{{ data.established | date: 'yyyy-MM-dd' }}</label>
+  
+        <button class="universal-button" type="submit">Verzenden</button>
+      </form>
+    </div>
+  </div>
+  

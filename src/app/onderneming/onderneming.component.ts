@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Inject, inject } from '@angular/core';
+import { MAT_DIALOG_DATA, MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-onderneming',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./onderneming.component.css']
 })
 export class OndernemingComponent {
+
+constructor(@Inject(MAT_DIALOG_DATA) public data:number){}
+
 
 }

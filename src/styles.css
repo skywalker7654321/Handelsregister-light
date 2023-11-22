@@ -1,18 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=Tilt+Prism&display=swap');
-html, body { height: 100%; }
+
+html,
+body {
+    height: 100%;
+}
+
 /* body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+:root {
+    --clr--blue--button: #255292FF;
+    --clr--small-text:rgb(82, 88, 103);
+}
 
 
 *,
 *::before,
-*::after{
+*::after {
     box-sizing: border-box;
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -22,4 +32,24 @@ body {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -0.2px;
-  }
+}
+
+.universal-button {
+    height: 36px;
+    padding: 0 12px;
+    
+    /* display: flex;
+    align-items: center; */
+
+    font-family: Encode Sans, Condensed;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 22px;
+
+    background: #255292FF;
+    color: white;
+
+    border: none;
+    border-radius: 4px;
+}
+  

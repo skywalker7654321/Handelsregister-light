@@ -1,0 +1,61 @@
+.page {
+    margin-top: 45px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    overflow-x: hidden; /* 隐藏水平滚动条 */
+}
+
+.uittreksel-container {
+    margin-top: 20px;
+    margin-bottom: 90px;
+    width: 60%;
+    padding: 20px;
+    border-radius: 8px;
+    border: solid;
+    border-width: 1px;
+    border-color: #d8d2d2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #eff0f3;
+    overflow-y:inherit; /* 显示垂直滚动条 */
+}
+
+
+h2 {
+    font-size: 20px;
+    align-items: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #666666;
+    /* padding-bottom: 5px; */
+}
+
+label#companyName,
+label#address,
+label#contact,
+label#industry,
+label#employees,
+label#revenue,
+label#website,
+label#established {
+    font-size: 16px;
+    color: #444444;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 2px;
+}
+
+.universal-button {
+    font-weight: lighter;
+}
+
+.universal-button:hover {
+    background-color: #2f3e4f;
+}

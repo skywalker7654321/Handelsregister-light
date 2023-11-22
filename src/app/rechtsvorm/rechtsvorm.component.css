@@ -1,5 +1,5 @@
 .rechtsvorm-container {
-    margin: 5rem;
+    padding-top: 110px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +11,7 @@
     font-size: 32px;
     font-weight: 300;
     line-height: 30px;
-    color: #255292FF;
+    color: var(--clr--blue--button);
 }
 
 /* Middle part */
@@ -49,7 +49,7 @@
     width: 270px;
     height: 60px;
     text-align: center;
-    color: #323743FF;
+    color: var(--clr--small-text);
 }
 
 .tile button {

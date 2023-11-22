@@ -1,13 +1,10 @@
 .start-button-container {
-    height: 25rem;
-    margin-top: 5rem;
+    height: 550px;
+    padding-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
-
-
 }
 
 .welcome-message {
@@ -19,7 +16,6 @@
 }
 
 
-
 .choice-button {
     width: 400px;
     height: 50px;
@@ -29,29 +25,23 @@
     justify-content: center;
 
     font-family: Encode Sans, Condensed;
-    /* Body */
     font-size: 28px;
     font-weight: 300;
     line-height: 30px;
     color: white;
 
     background: #255292FF;
-    /* primary-500 */
     border: none;
     border-radius: 6px;
-    /* border-xl */
     box-shadow: 4px 4px 15px #5f6774, 0px 0px 1px #171a1f;
-    /* shadow-xl */
 }
 
 .choice-button:hover {
     background: #1E447AFF;
-    /* primary-600 */
 }
 
 .choice-button:hover:active {
     background: #183660FF;
-    /* primary-700 */
 }
 
 .choice-button mat-icon {
@@ -60,7 +50,6 @@
     font-size: 2.7rem;
 }
 
-
 .search-kvk-number-container {
     width: 400px;
     display: flex;
@@ -68,14 +57,9 @@
 }
 
 .start-button-container mat-form-field {
-    /* border: solid;
-    border-color: #255292FF; */
     flex-grow: 0.9;
     height: 73px;
-    /* box-shadow: 2px 4px 15px #5f6774, 0px 0px 1px #171a1f; */
 }
-
-
 
 .search-kvk-number-container mat-label {
     font-family: Encode Sans;
@@ -83,8 +67,6 @@
     font-weight: 300;
     letter-spacing: -0.1px;
 }
-
-
 
 .search-button {
     width: 100px;

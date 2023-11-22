@@ -1,56 +1,74 @@
-html{
-    font-family: Encode Sans, Condensed;
-    font-size: 14px;
-    font-weight: 400px;
-    line-height: 22px;
+html {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 8px !important;
+  font-weight: 200;
+  letter-spacing: -0.2px;
+  background: #45a049;
+
+  /* background: transparent !important;
+  backdrop-filter: blur(20px); */
+
 
 }
 
 .register-container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f7f7f7;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-    text-align: center;
-    color: #333;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    margin-top: 10px;
-    font-weight: bold;
-    color: #555;
-  }
-  
-  input {
-    padding: 8px;
-    margin: 8px 0;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 14px;
-  }
-  
-  button {
-    padding: 10px;
-    margin-top: 20px;
-    background-color: #0b223a;
-    color: white !important;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  /* background: transparent !important;
+  backdrop-filter: blur(20px); */
+}
+
+
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  color: #555;
+}
+
+input {
+  padding: 6px;
+  margin: 1px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #0b223a;
+  color: white !important;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* 调整最后一个值来控制透明度 */
+/* .dialog-backdrop {
+  background: rgba(159, 138, 138, 0.5); 
+} */
+
+/* 调整 mat-dialog-container 内的 mat-dialog-actions 的位置 */
+::ng .mat-dialog-container .mat-dialog-actions {
+  margin-top: auto; /* 将顶部外边距设置为 auto，将其推到底部 */
+}

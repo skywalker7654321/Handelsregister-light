@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MatDialog } from '@angular/material/dialog';
+import { MatDialog, MatDialogConfig } from '@angular/material/dialog';
 import { OndernemingComponent } from '../onderneming/onderneming.component';
 import { PersoonsgegevensComponent } from '../persoonsgegevens/persoonsgegevens.component';
 import { FunctionarisComponent } from '../functionaris/functionaris.component';
@@ -27,6 +27,7 @@ export class InschrijvendelenComponent {
       width: '80%',
       enterAnimationDuration,
       exitAnimationDuration,
+      data: 10
     });
   }
 

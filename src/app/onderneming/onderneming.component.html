@@ -1,4 +1,6 @@
-<h2 mat-dialog-title>Under construction...</h2>
+
+
+<h2 mat-dialog-title>Under construction... {{ data }}</h2>
 <mat-dialog-content class="mat-typography">
 
   <div class="register-container">
@@ -32,7 +34,7 @@
   
       <button type="submit">Verzenden</button>
     </form>
-  </div>
+  </div> 
   
   
 </mat-dialog-content>
@@ -40,3 +42,5 @@
   <button mat-button mat-dialog-close>Cancel</button>
   <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Confirm</button>
 </mat-dialog-actions>
+
+
