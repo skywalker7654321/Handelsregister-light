@@ -15,6 +15,7 @@ import { FunctionarisComponent } from './functionaris/functionaris.component';
 import { VestigingComponent } from './vestiging/vestiging.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { UittrekselComponent } from './uittreksel/uittreksel.component'
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { UittrekselComponent } from './uittreksel/uittreksel.component'
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModuleModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
