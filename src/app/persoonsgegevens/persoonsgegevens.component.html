@@ -1,13 +1,91 @@
-<p>persoonsgegevens works!</p>
-
-
-<h2 mat-dialog-title>Under construction...</h2>
+<div class="icon-bar">
+  <div class="icon-set">
+    <mat-icon class="icon" fontIcon="check_circle"></mat-icon>
+    <span>Rechtsvorm</span>
+  </div>
+  <div class="icon-set">
+    <mat-icon class="icon" fontIcon="check_circle"></mat-icon>
+    <span>Onderneming</span>
+  </div>
+  <div class="icon-set">
+    <mat-icon class="icon" fontIcon="check_circle"></mat-icon>
+    <span>Persoonsgegevens</span>
+  </div>
+  <div class="icon-set">
+    <mat-icon class="icon" fontIcon="circle"></mat-icon>
+    <span>Vestiging</span>
+  </div>
+</div>
+<!-- <h2 mat-dialog-title>Under construction...</h2> -->
 <mat-dialog-content class="mat-typography">
 
   <div class="register-container">
-    <h2>persoonsgegevens</h2>
+    <!-- <h2>persoonsgegevens</h2> -->
     <form>
-      <label for="companyName">Bedrijfsnaam</label>
+
+      <div class="table left-table">
+        <div class="textbox-container">
+          <label for="voorNaam">Voornaam</label>
+          <input type="text" #voorNaam (input)="onInputVoornaam(voorNaam.value)" required>
+        </div>
+
+        <div class="textbox-container">
+          <label for="tussenVoegsel">Tussenvoegsel</label>
+          <input type="text" #tussenVoegsel (input)="onInputTussenvoegsel(tussenVoegsel.value)">
+        </div>
+
+        <div class="textbox-container">
+          <label for="achterNaam">Achternaam</label>
+          <input type="text" #achterNaam (input)="onInputAchternaam(achterNaam.value)" required>
+        </div>
+
+        <div class="textbox-container">
+          <label for="geslacht">Geslacht</label>
+          <input type="text" #geslacht (input)="onInputGeslacht(geslacht.value)" required>
+        </div>
+
+        <div class="textbox-container">
+          <label for="geboorteDatum">Geboortedatum</label>
+          <input type="text" #geboorteDatum (input)="onInputGeboorteDatum(geboorteDatum.value)" required>
+        </div>
+
+      </div>
+
+      <div class="table right table">
+        <div class="textbox-container">
+          <label for="straatNaam">Straatnaam</label>
+          <input type="text" #straatNaam (input)="onInputStraatnaam(straatNaam.value)" required>
+        </div>
+
+        <div class="textbox-container">
+          <label for="huisnummer">Huisnummer</label>
+          <input type="number" #huisnummer (input)="onInputHuisnummer(huisnummer.value)" required>
+        </div>
+
+        <div class="textbox-container">
+          <label for="toevoegingHuisnummer">Toevoeging Huisnummer</label>
+          <input type="text" #toevoegingHuisnummer (input)="onInputToevoegingHuisnummer(toevoegingHuisnummer.value)">
+        </div>
+
+        <div class="textbox-container">
+          <label for="postcode">Postcode</label>
+          <input type="text" #postcode (input)="onInputPostcode(postcode.value)" required>
+        </div>
+
+        <div class="textbox-container">
+          <label for="plaatsNaam">Plaatsnaam</label>
+          <input type="text" #plaatsNaam (input)="onInputStraatnaam(plaatsNaam.value)" required>
+        </div>
+
+        <div class="textbox-container">
+          <label for="land">Land</label>
+          <input type="text" #land (input)="onInputLand(land.value)" required>
+        </div>
+      </div>
+
+
+
+      <!-- <label for="companyName">Bedrijfsnaam</label>
       <input type="text" id="companyName" name="companyName" required>
   
       <label for="address">Adres</label>
@@ -29,15 +107,15 @@
       <input type="url" id="website" name="website" required>
   
       <label for="established">Oprichtingsdatum</label>
-      <input type="date" id="established" name="established" required>
-  
+      <input type="date" id="established" name="established" required> -->
+
       <!-- Andere invoervelden... WIP -->
-  
-      <button type="submit">Verzenden</button>
+
+      <!-- <button type="submit">Verzenden</button> -->
     </form>
   </div>
-  
-  
+
+
 </mat-dialog-content>
 <mat-dialog-actions align="end">
   <button mat-button mat-dialog-close>Cancel</button>

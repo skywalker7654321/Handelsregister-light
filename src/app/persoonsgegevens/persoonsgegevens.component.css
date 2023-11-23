@@ -1,56 +1,95 @@
-html{
-    font-family: Encode Sans, Condensed;
-    font-size: 14px;
-    font-weight: 400px;
-    line-height: 22px;
+html {
+  font-family: Encode Sans, Condensed;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 22px;
 
 }
 
 .register-container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f7f7f7;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  /* background-color: #f7f7f7;
     border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-    text-align: center;
-    color: #333;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  label {
-    margin-top: 10px;
-    font-weight: bold;
-    color: #555;
-  }
-  
-  input {
-    padding: 8px;
-    margin: 8px 0;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 14px;
-  }
-  
-  button {
-    padding: 10px;
-    margin-top: 20px;
-    background-color: #0b223a;
-    color: white !important;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+/* -- 设置stepper -- */
+
+.icon-bar{
+  margin: 20px 50px 0 50px;
+  padding: 20px 10px 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px #ED7D2DA8;
+  border-bottom: solid 1px #ED7D2DA8;
+
+}
+
+.icon-set{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.icon{
+  color: #a9a6a6;
+}
+
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.textbox-container{
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  color: #393838;
+
+  font-family: 'Encode Sans', Condensed;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+input {
+
+  width: 352px; 
+  height: 42px;
+
+  padding-left: 12px;
+  margin: 4px 0;
+
+  background: #F3F4F6FF;
+  border-radius: 4px;
+  border-width: 0px;
+  outline: none;
+  border-radius: 4px;
+
+  font-family: 'Encode Sans', Condensed;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+
+}
+
+button {
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #0b223a;
+  color: white !important;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
